@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "image": "/Profile-1.svg",
+    "name": "Alex Stanton",
+    "position": "CEO at Bukalapak",
+    "feedback": "We are very happy with the service from the MORENT App. Morent has a low price and a large variety of cars with good and comfortable facilities. The officers are very friendly and polite.",
+    "date": "21 July 2022",
+    "rating": 4
+  },
+  {
+    "id": 2,
+    "image": "/Profile-2.svg",
+    "name": "Skylar Dias",
+    "position": "CEO at Amazon",
+    "feedback": "We are very happy with the service from the MORENT App. Morent has a low price and a large variety of cars with good and comfortable facilities. The officers are very friendly and polite.",
+    "date": "21 July 2022",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "image": "/Profile-1.svg",
+    "name": "Maria Lopez",
+    "position": "Marketing Manager at Google",
+    "feedback": "The service is excellent! Morent made my travels more convenient with a variety of vehicles to choose from. Highly recommended!",
+    "date": "18 June 2022",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "image": "/Profile-2.svg",
+    "name": "James Carter",
+    "position": "Freelancer",
+    "feedback": "Great platform with competitive prices and user-friendly interface. Customer support is top-notch.",
+    "date": "15 August 2022",
+    "rating": 5
+  },
+  {
+    "id": 5,
+    "image": "/Profile-1.svg",
+    "name": "Sophia Taylor",
+    "position": "HR Specialist at Microsoft",
+    "feedback": "Had a smooth experience with the Morent App. Booking a car was hassle-free, and the support team was quick to resolve my queries.",
+    "date": "12 July 2022",
+    "rating": 4
+  },
+  {
+    "id": 6,
+    "image": "/Profile-2.svg",
+    "name": "Liam Brown",
+    "position": "Entrepreneur",
+    "feedback": "Morent offers great value for money. Cars were clean, and the booking process was simple. Will use again!",
+    "date": "10 September 2022",
+    "rating": 5
+  },
+  {
+    "id": 7,
+    "image": "/Profile-1.svg",
+    "name": "Emily Davis",
+    "position": "Photographer",
+    "feedback": "The variety of cars and the ease of booking made my trip so much better. Thanks to Morent for their amazing service!",
+    "date": "5 July 2022",
+    "rating": 4
+  },
+  {
+    "id": 8,
+    "image": "/Profile-2.svg",
+    "name": "Noah Johnson",
+    "position": "Software Engineer at Apple",
+    "feedback": "Affordable, reliable, and convenient. Morent is my first choice for renting vehicles during vacations.",
+    "date": "2 August 2022",
+    "rating": 5
+  },
+  {
+    "id": 9,
+    "image": "/Profile-1.svg",
+    "name": "Mia Wilson",
+    "position": "Blogger",
+    "feedback": "The service was good, and the staff was polite. I just wish they had more electric car options in my area.",
+    "date": "25 June 2022",
+    "rating": 3
+  },
+  {
+    "id": 10,
+    "image": "/Profile-2.svg",
+    "name": "Lucas Miller",
+    "position": "CEO at TechStart",
+    "feedback": "I am extremely satisfied with Morent's services. The car condition was excellent, and the rental process was straightforward.",
+    "date": "30 July 2022",
+    "rating": 5
+  },
+  {
+    "id": 11,
+    "image": "/Profile-1.svg",
+    "name": "Amelia Clark",
+    "position": "Interior Designer",
+    "feedback": "Convenient app and helpful staff. I was able to rent a car quickly for my business trip. Great experience overall.",
+    "date": "10 May 2022",
+    "rating": 4
+  },
+  {
+    "id": 12,
+    "image": "/Profile-2.svg",
+    "name": "Ethan Hill",
+    "position": "Musician",
+    "feedback": "I used Morent for the first time last month, and it exceeded my expectations. Smooth experience!",
+    "date": "8 August 2022",
+    "rating": 5
+  },
+  {
+    "id": 13,
+    "image": "/Profile-1.svg",
+    "name": "Ava Thomas",
+    "position": "Teacher",
+    "feedback": "Morent made my holiday stress-free by providing a reliable and affordable rental service. Thank you!",
+    "date": "22 July 2022",
+    "rating": 4
+  },
+  {
+    "id": 14,
+    "image": "/Profile-2.svg",
+    "name": "Oliver Martinez",
+    "position": "Architect",
+    "feedback": "Great prices and a wide range of cars. However, the return process could be faster.",
+    "date": "1 August 2022",
+    "rating": 3
+  },
+  {
+    "id": 15,
+    "image": "/Profile-1.svg",
+    "name": "Isabella Garcia",
+    "position": "Content Creator",
+    "feedback": "Loved the service! The team was responsive, and the car was in great condition.",
+    "date": "15 June 2022",
+    "rating": 5
+  },
+  {
+    "id": 16,
+    "image": "/Profile-2.svg",
+    "name": "William Rodriguez",
+    "position": "Project Manager",
+    "feedback": "A very reliable service with competitive pricing. Highly recommend Morent for business trips.",
+    "date": "3 September 2022",
+    "rating": 5
+  },
+  {
+    "id": 17,
+    "image": "/Profile-1.svg",
+    "name": "Charlotte Perez",
+    "position": "Student",
+    "feedback": "The service was okay, but I expected better communication about late returns.",
+    "date": "20 August 2022",
+    "rating": 3
+  },
+  {
+    "id": 18,
+    "image": "/Profile-2.svg",
+    "name": "Henry Walker",
+    "position": "Graphic Designer",
+    "feedback": "Very happy with the variety of cars available. It’s my go-to app for weekend getaways!",
+    "date": "18 July 2022",
+    "rating": 4
+  },
+  {
+    "id": 19,
+    "image": "/Profile-1.svg",
+    "name": "Olivia White",
+    "position": "Real Estate Agent",
+    "feedback": "Morent’s staff is very professional, and the app is easy to navigate. The car selection is great.",
+    "date": "11 September 2022",
+    "rating": 5
+  },
+  {
+    "id": 20,
+    "image": "/Profile-2.svg",
+    "name": "Jack Harris",
+    "position": "Banker",
+    "feedback": "Good service overall, but I faced minor delays during pickup. Hope they improve on that.",
+    "date": "28 July 2022",
+    "rating": 4
+  }
+]

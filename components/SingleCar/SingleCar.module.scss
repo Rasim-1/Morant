@@ -1,0 +1,183 @@
+.wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  // max-width: 500px;
+  img {
+    width: 100%;
+  }
+  @media (max-width:450px) {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+
+.box_2 {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+ 
+
+  b {
+    display: flex;
+    gap: 20px;
+    p {
+      opacity: 60%;
+    }
+  }
+
+  @media (max-width:450px) {
+    max-width: 350px;
+    
+  }
+}
+
+.zagalovok{
+  // font-size: 32px;
+  font-size: clamp(1rem, 0.666rem + 1.45vw, 1.75rem);
+  color: #fff;
+}
+
+
+
+.boxes {
+  display: grid;
+
+  grid-template-columns: 1fr 2fr;
+  place-items: center;
+  gap: 20px;
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    place-items: start;
+  }
+  gap: 20px;
+  img {
+    width: 100%;
+  }
+}
+
+.topImage {
+
+  height: 100%;
+  aspect-ratio: 1.2/1;
+
+  background-image: url(/bg-arrows.png);
+  background-color: #3563e9;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  // align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+  padding: 20px;
+
+  p {
+    max-width: 280px;
+    color: #fff;
+  }
+
+  img {
+    padding-bottom: 20px;
+    margin-top: auto;
+
+    width: 70%;
+    object-fit: contain;
+
+    align-self: center;
+  }
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.bottomImage {
+  display: flex;
+  gap: 10px;
+  // flex-wrap: wrap;
+
+  img {
+    max-width: 120px;
+    object-fit: cover;
+    aspect-ratio: 1.2/1;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    &:nth-child(1) {
+      object-fit: contain;
+    }
+    @media (max-width:450px) {
+      max-width: 90px;
+      
+    }
+  }
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  line-height: 3;
+  > p {
+    opacity: 60%;
+    font-weight: 600;
+  }
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (max-width:450px) {
+    flex-direction: column;
+  }
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+
+  
+  
+
+  cursor: pointer;
+  p {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  .star {
+    font-size: 24px;
+    cursor: pointer;
+    color: gray;
+    margin-right: 5px;
+    
+
+    &:hover {
+      color: gold;
+    }
+  }
+
+  .starSelected {
+    font-size: 24px;
+    color: gold;
+    margin-right: 5px;
+  }
+}

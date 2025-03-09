@@ -1,0 +1,32 @@
+.toggleSwitch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  height: 30px;
+  background: #f0f0f0;
+  border-radius: 30px;
+  padding: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.day {
+  background: #2563eb;
+  transform: translateX(0);
+}
+
+.night {
+  background: #e2e8f0;
+  transform: translateX(30px);
+}

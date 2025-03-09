@@ -1,0 +1,10 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 260px 3fr;
+    gap: 20px;
+    @media (max-width: 600px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+

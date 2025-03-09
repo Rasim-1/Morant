@@ -1,0 +1,45 @@
+.NavBar {
+  display: flex;
+
+  width: 200px;
+  color: #94a7cb;
+  margin: 25px;
+  .item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 16px; /* Elementlar orasidagi bo'shliq */
+    transition: 0.3s;
+    width: 220px;
+    height: 46px;
+    border-radius: 16px;
+    &:hover {
+      // width: 200px;
+      // height: 46px;
+      top: 80px;
+      left: 16px;
+
+      background-color: #3563e9;
+    }
+  }
+
+  .item img {
+    width: 20px; /* Tasvirning kengligi */
+    height: 20px; /* Tasvirning balandligi */
+    padding: 10px;
+  }
+
+  .item b {
+    display: flex;
+    gap: 10;
+    width: 180px;
+    height: 20px;
+    margin: 6px;
+    font-weight: 400;
+    color: #90a3bf; /* Matn rangi */
+    transition: 0.3s;
+    &:hover {
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,102 @@
+.dashboardContainer {
+  max-width: 530px;
+margin: 20px;
+//   gap: 20px;
+}
+.topSection {
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.bighead {
+  height: 24px;
+}
+.chart {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.chart ul {
+  
+  //   justify-content:center;
+  width: 100px;
+  //   align-items: center;
+  gap: 30px;
+}
+
+.chartCenter {
+  img {
+    display: flex;
+    width: 230px;
+    height: 200px;
+  }
+}
+
+.bottomSection {
+  max-width: 530px;
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ 
+}
+
+.recentTransactions {
+  margin-top: 20px;
+}
+
+.transactionsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.transactionsHeader a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.transactionsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.transactionsList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 6px;
+}
+
+.transactionsList img {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.transactionsList div {
+  flex: 1;
+}
+
+.transactionsList h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: #333;
+}
+
+.transactionsList p {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.transactionsList span {
+  font-weight: bold;
+  color: #333;
+}

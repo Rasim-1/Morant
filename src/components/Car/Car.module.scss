@@ -1,0 +1,106 @@
+.car_card{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  max-width: 400px;
+  position: relative;
+
+
+  h3{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  >p{
+    opacity: 60%;
+  }
+}
+
+.car_image{
+  object-fit: contain;
+  aspect-ratio: 2/1;
+}
+
+.car_details{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+  font-size: 13px;
+  p{
+    opacity: 50%;
+  }
+  img{
+  width: 14px;
+  }
+}
+
+.prices{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // gap: 10px;
+  s{
+    opacity: 60%;
+  }
+  >p{
+    font-size: 16px;
+  }
+  
+}
+
+.rent{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  a{
+    text-decoration: none;
+  }
+}
+
+.Btn{
+  padding: 10px;
+}
+.like_button {
+  position: absolute;
+  top: -7px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  transition: all 0.3s ease;
+  &:active{
+    scale: 1.2;
+  }
+
+  img {
+    width: 24px;
+    height: 24px;
+    opacity: 0.6; // Начальная прозрачность (серый цвет)
+  }
+
+  &:hover img {
+    opacity: 1; // При наведении на иконку, она становится полностью видимой
+  }
+
+  &.liked {
+    img {
+      opacity: 1; // Когда лайкнут, иконка становится яркой
+    }
+  }
+
+  // Серый цвет для невыбранной кнопки
+  img[src*="like-1.svg"] {
+    filter: grayscale(100%);
+  }
+
+  // Красный цвет для выбранной кнопки
+  img[src*="like-2.svg"] {
+    filter: none;
+    transition: filter 0.3s ease;
+  }
+}

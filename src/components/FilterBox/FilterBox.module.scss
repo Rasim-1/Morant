@@ -1,0 +1,42 @@
+.filter{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+
+  @media (max-width:450px) {
+    max-width: 330px;
+  }
+}
+
+.filterWrap{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+  >.filterGroup {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      label{
+          display: flex;
+          
+          gap: 10px;
+      }
+  }
+}
+
+.fill{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.filterWrap2{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}

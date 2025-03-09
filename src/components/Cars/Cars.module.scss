@@ -1,0 +1,53 @@
+.moreBtn{
+  padding: 13px 20px;
+  // padding: 15px 3px;
+  background-color: #3563E9;
+  border-radius: 10px;
+  border: none;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 auto;
+  display: block;
+  width: max-content;
+  transition: 0.3s;
+  &:hover{
+    background-color: #466febd4;
+  }
+
+  &:active{
+    scale: 1.2;
+  }
+  
+}
+
+.car_list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  transition: 0.3s;
+  p{
+    opacity: 65%;
+    font-size: 20px;
+  }
+  a{
+    font-size: 20px;
+    color: #54A6FF;
+    text-decoration: none;
+    transition: 0.3s;
+    a:hover {
+      color: #0056b3; /* Более темный голубой для эффекта наведения */
+      text-decoration: underline; /* Добавляет подчеркивание при наведении */
+    }
+    
+    
+  }
+}

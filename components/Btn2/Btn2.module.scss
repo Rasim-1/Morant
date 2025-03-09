@@ -1,0 +1,17 @@
+.btn2{
+    border: none;
+    padding: 5px 10px;
+    border-radius:8px;
+    max-width: 150px;
+    font-size: 15px;
+    background-color: #54A6FF;
+    color: #fff;
+    transition: 0.3s;
+    &:hover{
+      background-color: #546bff;
+    }
+    
+  &:active{
+    scale: 1.2;
+  }
+  }

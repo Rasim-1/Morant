@@ -1,0 +1,111 @@
+// App.scss
+
+.rental-form {
+   font-family: Arial, sans-serif;
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #f9f9f9;
+   border-radius: 8px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ 
+   h2 {
+     font-size: 24px;
+     margin-bottom: 10px;
+     color: #333;
+   }
+ 
+   .form-group {
+     margin-bottom: 15px;
+ 
+     label {
+       display: block;
+       font-weight: bold;
+       margin-bottom: 5px;
+       color: #555;
+     }
+ 
+     input,
+     select {
+       width: 100%;
+       padding: 10px;
+       border: 1px solid #ccc;
+       border-radius: 4px;
+       font-size: 14px;
+     }
+   }
+ 
+   .pickup,
+   .dropoff {
+     margin-bottom: 20px;
+ 
+     h3 {
+       font-size: 20px;
+       margin-bottom: 10px;
+       color: #444;
+     }
+   }
+ 
+   .payment-method {
+     margin-bottom: 20px;
+ 
+     .form-group {
+       display: flex;
+       align-items: center;
+ 
+       input[type="radio"] {
+         margin-right: 10px;
+       }
+ 
+       .credit-card-details {
+         display: flex;
+         gap: 10px;
+         margin-top: 10px;
+ 
+         input {
+           flex: 1;
+         }
+       }
+     }
+   }
+ 
+   .confirmation {
+     margin-bottom: 20px;
+ 
+     .form-group {
+       display: flex;
+       align-items: center;
+ 
+       input[type="checkbox"] {
+         margin-right: 10px;
+       }
+     }
+ 
+     .rent-now {
+       display: inline-block;
+       background-color: #007bff;
+       color: white;
+       border: none;
+       padding: 10px 20px;
+       font-size: 16px;
+       border-radius: 4px;
+       cursor: pointer;
+       transition: background-color 0.3s;
+ 
+       &:hover {
+         background-color: #0056b3;
+       }
+     }
+   }
+ 
+   .footer {
+     text-align: center;
+     font-size: 12px;
+     color: #777;
+ 
+     p {
+       margin: 5px 0;
+     }
+   }
+ }
+ 

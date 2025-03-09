@@ -1,0 +1,160 @@
+.favorite_list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.favorite_car{
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  gap: 40px;
+  position: relative;
+  padding-top: 20px;
+
+}
+
+.like_button {
+  position: absolute;
+  top: -45px; /* Расстояние от верхнего края */
+  right: -14px; /* Расстояние от правого края */
+  background-color: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  transition: all 0.3s ease;
+  
+
+  &:active {
+    scale: 1.2;
+  }
+
+  img {
+    width: 24px;
+    height: 24px;
+    opacity: 0.6; /* Начальная прозрачность (серый цвет) */
+  }
+
+  &:hover img {
+    opacity: 1; /* При наведении на иконку, она становится полностью видимой */
+  }
+
+  &.liked img {
+    opacity: 1; /* Когда лайкнуто, иконка становится яркой */
+  }
+
+  /* Серый цвет для невыбранной кнопки */
+  img[src*="like-1.svg"] {
+    filter: grayscale(100%);
+  }
+
+  /* Красный цвет для выбранной кнопки */
+  img[src*="like-2.svg"] {
+    filter: none;
+    transition: filter 0.3s ease;
+  }
+}
+
+.main_info{
+  display: flex;
+  gap: 15px;
+ h3{
+  font-size: clamp(1rem, 0.666rem + 1.45vw, 1.75rem);
+  font-weight: 700;
+ }
+  justify-content: space-between;
+  flex-direction: column;
+  img{
+    max-width: 120px;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  margin-top: 20px;
+}
+
+.name_a_img{
+  display: flex;
+  justify-content: space-between;
+}
+
+.add_info{
+  display: flex;
+  gap: 20px;
+  p{
+    font-size: 18px;
+
+  }
+  s{
+    opacity: 60%;
+  }
+}
+
+.line{
+  width: 100%;
+  height: 1px;
+  background-color: lightgray;
+}
+
+.rental-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-section {
+  width: 100%;
+  background: #f2f2f2;
+}
+
+.image-section img {
+  width: 100%;
+  
+}
+
+.info-section {
+  padding: 16px;
+}
+
+h3 {
+  font-size: 16px;
+  color: #555;
+  margin: 0 0 8px;
+}
+
+.summary-text {
+  font-size: 12px;
+  color: #888;
+  margin: 0 0 16px;
+}
+
+.car-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 8px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.stars {
+  font-size: 16px;
+  color: #ffc107;
+}
+
+.review-count {
+  font-size: 12px;
+  color: #555;
+}

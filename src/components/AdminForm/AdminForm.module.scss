@@ -1,0 +1,76 @@
+.wrap{
+
+    
+}
+
+.inpWrapper{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(350px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+    
+    div{
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        input{
+            padding: 10px;
+            border: none;
+            border-radius: 15px;
+
+        }
+        textarea{
+            padding: 10px;
+            border: none;
+            border-radius: 15px;
+            background-color: rgba(211, 211, 211, 0.664);
+        }
+    }
+    button{
+        background-color: #3563E9;
+    }
+
+   
+}
+
+.inpWrap{
+    flex-direction: column;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(211, 211, 211, 0.664);
+    padding: 20px;
+    
+div{
+    @media (max-width:500px) {
+        flex-direction: column;
+    }
+}
+
+}
+
+.editWrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    gap: 10px;
+
+    li{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    button{
+        background-color: #3563E9;
+    }
+    
+    @media (max-width:600px) {
+       max-width: 350px;
+    }
+}
+
+.infos{
+    display: flex;
+    @media (max-width:500px) {
+        flex-direction: column;
+    }
+}

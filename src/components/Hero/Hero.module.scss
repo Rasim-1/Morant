@@ -1,0 +1,68 @@
+.hero{
+  margin-top: 30px;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  @media (max-width:700px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card{
+  background-image: url(/hero-card-img2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 360px;
+  background-color: #54A6FF;
+  border-radius: 15px;
+  color: #fff;
+  padding: 20px;
+  
+  div{
+    max-width: 272px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 15px;
+    h2{
+      // font-size: 32px;
+      font-size: clamp(1rem, 0.609rem + 1.6vw, 1.813rem);
+      font-weight: 400;
+      color: #fff;
+    }
+
+  }
+p{
+  color: #fff;
+}
+  &:nth-child(2){
+    background-image: url(/hero-card-img1.png);
+    background-color: #3563E9;
+    @media (max-width:700px) {
+      display: none;
+    }
+ }
+}
+
+// .btn{
+//   border: none;
+//   padding: 10px;
+//   border-radius: 8px;
+//   max-width: 150px;
+//   font-size: 17px;
+//   background-color: #3563E9;
+//   color: #fff;
+// }
+// .btn2{
+//   border: none;
+//   padding: 10px;
+//   border-radius:8px;
+//   max-width: 150px;
+//   font-size: 17px;
+//   background-color: #54A6FF;
+//   color: #fff;
+// }

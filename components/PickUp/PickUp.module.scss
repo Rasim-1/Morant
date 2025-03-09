@@ -1,0 +1,127 @@
+.cards {
+  display: grid;
+  grid-template-columns: 3fr 1fr 3fr;
+  align-items: center;
+  place-items: center;
+  @media (max-width: 700px) {
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+img{
+  cursor: pointer;
+}
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
+}
+.btn {
+  max-width: 60px;
+  border-radius: 15px;
+  padding: 15px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  background-color: #3563e9;
+  @media (max-width:700px) {
+    position: absolute;
+  }
+}
+.line {
+  width: 1px;
+  height: 50px;
+  background-color: lightgray;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: clamp(0.688rem, 0.537rem + 0.62vw, 1rem);
+
+  p {
+    font-weight: 600;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+    img {
+      width: 16px;
+    }
+  }
+}
+
+
+.activeArrow {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+.info {
+  display: flex;
+  gap: 15px;
+  position: relative; /* Родительский контейнер для dropdown */
+}
+
+div {
+  position: relative; /* Для каждого блока (Locations, Date, Time) */
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%; /* Позиция под текстом "Select your..." */
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: max-content; /* Подгон ширины под содержимое */
+}
+
+.dropdown p {
+  margin: 0;
+  padding: 5px 10px;
+  cursor: pointer;
+  &:hover {
+    background-color: #f2f2f2;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: clamp(0.688rem, 0.537rem + 0.62vw, 1rem);
+  position: relative; /* Для корректного расположения вложенных элементов */
+}
+
+.expanded {
+  transform: rotate(180deg); /* Переворачиваем стрелку */
+  transition: transform 0.3s ease;
+}
+
+.line {
+  width: 1px;
+  height: 50px;
+  background-color: lightgray;
+}
+
+.activeDropdown {
+  display: block; /* Показываем активное меню */
+}

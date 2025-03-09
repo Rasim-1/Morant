@@ -1,0 +1,51 @@
+[
+    {
+      "id": 1,
+      "title": "New Branch Opening",
+      "date": "2024-01-15",
+      "location": "New York, 12th Avenue",
+      "description": "Join us for the grand opening of our new branch. Enjoy gifts, test drives, and special offers on car rentals.",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "title": "Winter SUV Discounts",
+      "date": "2024-02-01",
+      "location": "Online and Offline",
+      "description": "Get up to 20% off on SUV rentals for your winter adventures.",
+      "image": "https://example.com/images/winter_discount.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Luxury Cars Test Drive",
+      "date": "2024-03-10",
+      "location": "Los Angeles, Sunset Boulevard",
+      "description": "Experience the thrill of driving top-tier sports cars before renting.",
+      "image": "https://example.com/images/test_drive.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Spring Free Rental Giveaway",
+      "date": "2024-04-01",
+      "location": "Online",
+      "description": "Participate in our giveaway to win a free weekend car rental.",
+      "image": "https://example.com/images/spring_lottery.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Safe Driving Workshop",
+      "date": "2024-05-20",
+      "location": "Austin, 10th Street",
+      "description": "Join our safe driving workshops led by professional instructors.",
+      "image": "https://example.com/images/safe_driving.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Summer Car Festival",
+      "date": "2024-06-15",
+      "location": "Miami, Ocean Drive",
+      "description": "Enjoy a grand car festival with exhibitions, contests, and family-friendly activities.",
+      "image": "https://example.com/images/summer_festival.jpg"
+    }
+  ]
+  
